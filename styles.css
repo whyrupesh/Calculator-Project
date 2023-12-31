@@ -1,0 +1,62 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 2, 15);
+}
+#a-box{
+    margin: 40px;
+    padding: 10px;
+    width: 255px;
+    height: 410px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 149, 255, 0.401);
+}
+
+#output-box{
+    width: 240px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    margin: 5px;
+}
+
+/* #numbers{
+    display: inline-block;
+} */
+
+#row{
+    display: flex;
+}
+
+#equals, #clear{
+    width: 114px;
+    height: 50px;
+    margin: 5px;
+    
+    border-style: solid;
+    border-color: rgba(0, 149, 255, 0.401);
+    border-width: 2px;
+    
+}
+
+
+#nine, #eight, #seven, #six, #five, #four, #three, #two, #one, #division, #multiply, #addition, #subtract, #decimal, #backspace, #zero{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    
+    border-style: solid;
+    border-color:rgba(0, 149, 255, 0.401);
+    border-width: 2px;
+    
+}
+
+button:hover {
+    background-color: rgba(0, 149, 255, 0.401); /* Change the background color on hover */
+}
+
